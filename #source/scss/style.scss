@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "BaiJamjuree";
+  src: url("../fonts/BaiJamjuree-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BaiJamjuree";
+  src: url("../fonts/BaiJamjuree-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@import "nulling.scss";
+@import "variables.scss";
+@import "templates.scss";
+@import "mixins.scss";
+@import "mobile.scss";
+@import "desktop.scss";

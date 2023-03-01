@@ -1,0 +1,699 @@
+@font-face {
+  font-family: "BaiJamjuree";
+  src: url("../fonts/BaiJamjuree-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BaiJamjuree";
+  src: url("../fonts/BaiJamjuree-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+body {
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+h1, h2, h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+}
+
+body header {
+  padding-top: 312px;
+  background-image: url("../images/logo.svg"), url("../images/bg-header-mobile.png");
+  background-size: 125px, 100%;
+  background-position: center 123px, center top;
+  background-repeat: no-repeat, no-repeat;
+}
+body header h1 {
+  margin: 0 24px 16px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.6px;
+}
+body header p {
+  margin: 0 32px 48px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.14px;
+}
+body header a {
+  display: block;
+  margin: 0 33px 27px;
+  padding: 16px 0 12px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.1px;
+  border-radius: 26.5px;
+  color: hsl(0, 0%, 100%);
+}
+body header .link-cyan {
+  box-shadow: 0 2px 0 1px hsl(171, 66%, 34%);
+  background-color: hsl(171, 66%, 44%);
+}
+body header .link-cyan:hover {
+  box-shadow: 0 2px 0 1px hsl(171, 66%, 44%);
+  background-color: hsl(171, 66%, 54%);
+}
+body header .link-blue {
+  box-shadow: 0 2px 0 1px hsl(233, 100%, 59%);
+  background-color: hsl(233, 100%, 69%);
+}
+body header .link-blue:hover {
+  box-shadow: 0 2px 0 1px hsl(233, 100%, 69%);
+  background-color: hsl(233, 100%, 79%);
+}
+body .tracking {
+  padding-top: 136px;
+}
+body .tracking h2 {
+  margin: 0 24px 16px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.4px;
+}
+body .tracking p {
+  margin: 0 32px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.14px;
+}
+body main {
+  padding-top: 65px;
+}
+body main img {
+  display: block;
+  width: 312px;
+  height: 238px;
+  margin: 0 auto;
+  padding: 0 0 56px;
+}
+body main h3 {
+  margin: 0 24px 10px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.4px;
+}
+body main p {
+  margin: 0 32px 48px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.14px;
+}
+body .access {
+  padding-top: 138px;
+}
+body .access h2 {
+  margin: 0 24px 16px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.4px;
+}
+body .access p {
+  margin: 0 32px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.14px;
+}
+body .devices {
+  display: block;
+  width: 347px;
+  height: 221px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+body .workflow {
+  padding-top: 95px;
+}
+body .workflow h2 {
+  margin: 0 24px 11px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.4px;
+}
+body .workflow p {
+  margin: 0 32px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.14px;
+}
+body .abilities {
+  padding-top: 90px;
+}
+body .abilities article img {
+  display: block;
+  margin: 0 auto;
+}
+body .abilities article h3 {
+  margin: 0 24px 18px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.4px;
+}
+body .abilities article p {
+  margin: 0 32px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.14px;
+}
+body .abilities .create {
+  padding-bottom: 56px;
+}
+body .abilities .create img {
+  width: 44px;
+  height: 40px;
+  padding: 0 0 40px;
+}
+body .abilities .plain {
+  padding-bottom: 56px;
+}
+body .abilities .plain img {
+  width: 36px;
+  height: 32px;
+  padding: 0 0 44px;
+}
+body .abilities .preview img {
+  width: 50px;
+  height: 32px;
+  padding: 0 0 45px;
+}
+body .companies {
+  padding-top: 131px;
+}
+body .companies .google {
+  display: block;
+  width: 139px;
+  height: 41px;
+  margin: 0 auto;
+  padding: 0 0 66px;
+}
+body .companies .ibm {
+  display: block;
+  width: 118px;
+  height: 43px;
+  margin: 0 auto;
+  padding: 0 0 69px;
+}
+body .companies .microsoft {
+  display: block;
+  width: 136px;
+  height: 29px;
+  margin: 0 auto;
+  padding: 0 0 63px;
+}
+body .companies .hp {
+  display: block;
+  width: 113px;
+  height: 47px;
+  margin: 0 auto;
+  padding: 0 0 56px;
+}
+body .companies .vg {
+  display: block;
+  width: 105px;
+  height: 25px;
+  margin: 0 auto;
+  padding: 0;
+}
+body .other {
+  padding: 170px 0 147px;
+}
+body .other h2 {
+  margin: 0 24px 16px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.4px;
+}
+body .other p {
+  margin: 0 32px 46px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.14px;
+}
+body .other a {
+  display: block;
+  margin: 0 33px 27px;
+  padding: 16px 0 12px;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.1px;
+  border-radius: 26.5px;
+  color: hsl(0, 0%, 100%);
+}
+body .other .link-cyan {
+  box-shadow: 0 2px 0 1px hsl(171, 66%, 34%);
+  background-color: hsl(171, 66%, 44%);
+}
+body .other .link-cyan:hover {
+  box-shadow: 0 2px 0 1px hsl(171, 66%, 44%);
+  background-color: hsl(171, 66%, 54%);
+}
+body .other .link-blue {
+  box-shadow: 0 2px 0 1px hsl(233, 100%, 59%);
+  background-color: hsl(233, 100%, 69%);
+}
+body .other .link-blue:hover {
+  box-shadow: 0 2px 0 1px hsl(233, 100%, 69%);
+  background-color: hsl(233, 100%, 79%);
+}
+body .links {
+  padding: 137px 0 51px;
+  background-image: url("../images/logo.svg");
+  background-size: 55px;
+  background-position: center 51px;
+  background-repeat: no-repeat;
+  background-color: hsl(201, 11%, 66%);
+}
+body .links .links-item {
+  display: block;
+  font-family: "BaiJamjuree", sans-serif;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
+body .links .links-item:hover {
+  color: hsl(171, 66%, 44%);
+}
+body .links .social {
+  display: flex;
+  margin: 37px 0 0;
+  justify-content: center;
+}
+body .links .social a {
+  padding: 0 20px;
+}
+body .links .social .social-twitter {
+  padding-top: 2px;
+}
+@media screen and (min-width: 1440px) {
+  body {
+    padding: 4px 0;
+  }
+  body header {
+    padding-top: 317px;
+    text-align: center;
+    background-image: url("../images/logo.svg"), url("../images/bg-header-desktop.png");
+    background-size: 125px, 100%;
+    background-position: center 127px, center top;
+    background-repeat: no-repeat, no-repeat;
+  }
+  body header h1 {
+    margin: 0 24px 25px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 46px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.6px;
+  }
+  body header p {
+    margin: 0 365px 48px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.24px;
+  }
+  body header a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 225px;
+    height: 53px;
+    margin: 0 7px;
+    padding: 0;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 18px;
+    line-height: 58px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.4px;
+    border-radius: 26.5px;
+    color: hsl(0, 0%, 100%);
+  }
+  body header .link-cyan {
+    box-shadow: 0 2px 0 1px hsl(171, 66%, 34%);
+    background-color: hsl(171, 66%, 44%);
+  }
+  body header .link-blue {
+    box-shadow: 0 2px 0 1px hsl(233, 100%, 59%);
+    background-color: hsl(233, 100%, 69%);
+  }
+  body .tracking {
+    padding-top: 154px;
+  }
+  body .tracking h2 {
+    margin: 0 24px 20px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 35px;
+    line-height: initial;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.4px;
+  }
+  body .tracking p {
+    margin: 0 360px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.14px;
+  }
+  body main {
+    padding-top: 147px;
+  }
+  body main img {
+    display: block;
+    float: left;
+    position: relative;
+    top: -68px;
+    left: -32px;
+    width: 752px;
+    height: 572px;
+    margin: 0 78px 0 0;
+    padding: 0;
+  }
+  body main h3 {
+    margin: 0 24px 8px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 24px;
+    line-height: initial;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: -0.4px;
+  }
+  body main p {
+    margin: 0 252px 56px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.14px;
+  }
+  body .access {
+    padding-top: 192px;
+  }
+  body .access h2 {
+    margin: 0 24px 20px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 36px;
+    line-height: initial;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.4px;
+  }
+  body .access p {
+    margin: 0 346px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.14px;
+  }
+  body .devices {
+    display: block;
+    width: 905px;
+    height: 575px;
+    margin: 0 auto;
+    padding-top: 99px;
+  }
+  body .workflow {
+    padding-top: 72px;
+  }
+  body .workflow h2 {
+    margin: 0 24px 23px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 35px;
+    line-height: initial;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.4px;
+  }
+  body .workflow p {
+    margin: 0 32px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 18px;
+    line-height: initial;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.14px;
+  }
+  body .abilities {
+    display: flex;
+    justify-content: center;
+    padding-top: 79px;
+  }
+  body .abilities article {
+    width: 348px;
+    margin: 0 16px;
+  }
+  body .abilities article img {
+    display: block;
+    margin: 0 auto;
+  }
+  body .abilities article h3 {
+    margin: 0 0 18px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.4px;
+  }
+  body .abilities article p {
+    margin: 0;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.14px;
+  }
+  body .abilities .create {
+    padding: 0;
+  }
+  body .abilities .create img {
+    width: 44px;
+    height: 40px;
+    padding: 0 0 40px;
+  }
+  body .abilities .plain {
+    padding: 0;
+  }
+  body .abilities .plain img {
+    width: 36px;
+    height: 32px;
+    padding: 0 0 44px;
+  }
+  body .abilities .preview {
+    padding: 0;
+  }
+  body .abilities .preview img {
+    width: 50px;
+    height: 32px;
+    padding: 0 0 45px;
+  }
+  body .companies {
+    display: flex;
+    justify-content: center;
+    padding-top: 155px;
+  }
+  body .companies .google {
+    display: block;
+    width: 165px;
+    height: 49px;
+    margin: 0 48px;
+    padding: 0;
+  }
+  body .companies .ibm {
+    display: block;
+    width: 139px;
+    height: 51px;
+    margin: 0 48px;
+    padding: 0;
+  }
+  body .companies .microsoft {
+    display: block;
+    width: 161px;
+    height: 35px;
+    margin: 7px 48px;
+    padding: 0;
+  }
+  body .companies .hp {
+    display: block;
+    width: 135px;
+    height: 56px;
+    margin: -3px 48px;
+    padding: 0;
+  }
+  body .companies .vg {
+    display: block;
+    width: 125px;
+    height: 30px;
+    margin: 12px 48px;
+    padding: 0;
+  }
+  body .other {
+    padding: 158px 0 154px;
+    text-align: center;
+  }
+  body .other h2 {
+    margin: 0 24px 20px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 35px;
+    line-height: initial;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -0.2px;
+  }
+  body .other p {
+    margin: 0 351px 46px;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.14px;
+  }
+  body .other a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 225px;
+    height: 53px;
+    margin: 0 7px;
+    padding: 0;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 18px;
+    line-height: 58px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.4px;
+    border-radius: 26.5px;
+    color: hsl(0, 0%, 100%);
+  }
+  body .other .link-cyan {
+    box-shadow: 0 2px 0 1px hsl(171, 66%, 34%);
+    background-color: hsl(171, 66%, 44%);
+  }
+  body .other .link-blue {
+    box-shadow: 0 2px 0 1px hsl(233, 100%, 59%);
+    background-color: hsl(233, 100%, 69%);
+  }
+  body .links {
+    display: grid;
+    grid-template-columns: 190px 190px 385px 190px;
+    grid-template-rows: 42px 42px;
+    padding: 43px 0 23px 355px;
+    background-image: url("../images/logo.svg");
+    background-size: 55px;
+    background-position: 165px 44px;
+    background-repeat: no-repeat;
+    background-color: hsl(201, 11%, 66%);
+  }
+  body .links .links-item {
+    display: block;
+    font-family: "BaiJamjuree", sans-serif;
+    font-size: 18px;
+    line-height: initial;
+    text-align: left;
+    letter-spacing: 0.1px;
+  }
+  body .links .faq {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  body .links .contact {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  body .links .privacy {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  body .links .kit {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  body .links .guide {
+    grid-column: 3;
+    grid-row: 1/3;
+  }
+  body .links .social {
+    grid-column: 4;
+    grid-row: 1/3;
+  }
+  body .links .social {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+  }
+  body .links .social a {
+    padding: 20px 12px;
+  }
+  body .links .social .social-twitter {
+    padding-top: 22px;
+  }
+}

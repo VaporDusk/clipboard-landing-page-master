@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+h1, h2, h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+}

@@ -1,0 +1,328 @@
+body {
+  header {
+    padding-top: 312px;
+    background-image: url("../images/logo.svg"), url("../images/bg-header-mobile.png");
+    background-size: 125px, 100%;
+    background-position: center 123px, center top;
+    background-repeat: no-repeat, no-repeat;
+    h1 {
+      margin: 0 24px 16px;
+      font-family: $BaiJamjuree;
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: -0.6px;
+    }
+    p {
+      margin: 0 32px 48px;
+      font-family: $BaiJamjuree;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      text-align: center;
+      letter-spacing: 0.14px;
+    }
+    a {
+      display: block;
+      margin: 0 33px 27px;
+      padding: 16px 0 12px;
+      font-family: $BaiJamjuree;
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: 0.1px;
+      border-radius: 26.5px;
+      color: hsl(0, 0%, 100%);
+    }
+    .link-cyan {
+      box-shadow: 0 2px 0 1px $DarkenCyan;
+      background-color: $StrongCyan;
+    }
+    .link-cyan:hover {
+      box-shadow: 0 2px 0 1px $StrongCyan;
+      background-color: $LightenCyan;
+    }
+    .link-blue {
+      box-shadow: 0 2px 0 1px $DarkenBlue;
+      background-color: $LightBlue;
+    }
+    .link-blue:hover {
+      box-shadow: 0 2px 0 1px $LightBlue;
+      background-color: $LightenBlue;
+    }
+  }
+  .tracking {
+    padding-top: 136px;
+    h2 {
+      margin: 0 24px 16px;
+      font-family: $BaiJamjuree;
+      font-size: 28px;
+      line-height: 35px;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: -0.4px;
+    }
+    p {
+      margin: 0 32px;
+      font-family: $BaiJamjuree;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      text-align: center;
+      letter-spacing: 0.14px;
+    }
+  }
+  main {
+    padding-top: 65px;
+    img {
+      display: block;
+      width: 312px;
+      height: 238px;
+      margin: 0 auto;
+      padding: 0 0 56px;
+    }
+    h3 {
+      margin: 0 24px 10px;
+      font-family: $BaiJamjuree;
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: -0.4px;
+    }
+    p {
+      margin: 0 32px 48px;
+      font-family: $BaiJamjuree;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      text-align: center;
+      letter-spacing: 0.14px;
+    }
+  }
+  .access {
+    padding-top: 138px;
+    h2 {
+      margin: 0 24px 16px;
+      font-family: $BaiJamjuree;
+      font-size: 28px;
+      line-height: 35px;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: -0.4px;
+    }
+    p {
+      margin: 0 32px;
+      font-family: $BaiJamjuree;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      text-align: center;
+      letter-spacing: 0.14px;
+    }
+  }
+  .devices {
+    display: block;
+    width: 347px;
+    height: 221px;
+    margin: 0 auto;
+    padding-top: 60px;
+  }
+  .workflow {
+    padding-top: 95px;
+    h2 {
+      margin: 0 24px 11px;
+      font-family: $BaiJamjuree;
+      font-size: 28px;
+      line-height: 35px;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: -0.4px;
+    }
+    p {
+      margin: 0 32px;
+      font-family: $BaiJamjuree;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      text-align: center;
+      letter-spacing: 0.14px;
+    }
+  }
+  .abilities {
+    padding-top: 90px;
+    article {
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      h3 {
+        margin: 0 24px 18px;
+        font-family: $BaiJamjuree;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: -0.4px;
+      }
+      p {
+        margin: 0 32px;
+        font-family: $BaiJamjuree;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 0.14px;
+      }
+    }
+    .create {
+      padding-bottom: 56px;
+      img {
+        width: 44px;
+        height: 40px;
+        padding: 0 0 40px;
+      }
+    }
+    .plain {
+      padding-bottom: 56px;
+      img {
+        width: 36px;
+        height: 32px;
+        padding: 0 0 44px;
+      }
+    }
+    .preview {
+      img {
+        width: 50px;
+        height: 32px;
+        padding: 0 0 45px;
+      }
+    }
+  }
+  .companies {
+    padding-top: 131px;
+    .google {
+      display: block;
+      width: 139px;
+      height: 41px;
+      margin: 0 auto;
+      padding: 0 0 66px;
+    }
+    .ibm {
+      display: block;
+      width: 118px;
+      height: 43px;
+      margin: 0 auto;
+      padding: 0 0 69px;
+    }
+    .microsoft {
+      display: block;
+      width: 136px;
+      height: 29px;
+      margin: 0 auto;
+      padding: 0 0 63px;
+    }
+    .hp {
+      display: block;
+      width: 113px;
+      height: 47px;
+      margin: 0 auto;
+      padding: 0 0 56px;
+    }
+    .vg {
+      display: block;
+      width: 105px;
+      height: 25px;
+      margin: 0 auto;
+      padding: 0;
+    }
+  }
+  .other {
+    padding: 170px 0 147px;
+    h2 {
+      margin: 0 24px 16px;
+      font-family: $BaiJamjuree;
+      font-size: 28px;
+      line-height: 35px;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: -0.4px;
+    }
+    p {
+      margin: 0 32px 46px;
+      font-family: $BaiJamjuree;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      text-align: center;
+      letter-spacing: 0.14px;
+    }
+    a {
+      display: block;
+      margin: 0 33px 27px;
+      padding: 16px 0 12px;
+      font-family: $BaiJamjuree;
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: 0.1px;
+      border-radius: 26.5px;
+      color: hsl(0, 0%, 100%);
+    }
+    .link-cyan {
+      box-shadow: 0 2px 0 1px $DarkenCyan;
+      background-color: $StrongCyan;
+    }
+    .link-cyan:hover {
+      box-shadow: 0 2px 0 1px $StrongCyan;
+      background-color: $LightenCyan;
+    }
+    .link-blue {
+      box-shadow: 0 2px 0 1px $DarkenBlue;
+      background-color: $LightBlue;
+    }
+    .link-blue:hover {
+      box-shadow: 0 2px 0 1px $LightBlue;
+      background-color: $LightenBlue;
+    }
+  }
+  .links {
+    padding: 137px 0 51px;
+    background-image: url("../images/logo.svg");
+    background-size: 55px;
+    background-position: center 51px;
+    background-repeat: no-repeat;
+    background-color: $GrayishBlue;
+    .links-item {
+      display: block;
+      font-family: $BaiJamjuree;
+      font-size: 18px;
+      line-height: 50px;
+      text-align: center;
+      letter-spacing: 0.1px;
+    }
+    .links-item:hover {
+      color: $StrongCyan;
+    }
+    .social {
+      display: flex;
+      margin: 37px 0 0;
+      justify-content: center;
+      a {
+        padding: 0 20px;
+      }
+      .social-facebook {
+        
+      }
+      .social-twitter {
+        padding-top: 2px;
+      }
+      .social-instagram {
+        
+      }
+    }
+  }
+}
